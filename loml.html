@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Drooling Station | Chinese, Momos & Fast Food in Vikas Nagar, New Delhi</title>
+    <meta name="title" content="Drooling Station | Chinese, Momos & Fast Food in Vikas Nagar, New Delhi">
+    <meta name="description"
+        content="Drooling Station serves sizzling Delhi street-style Chinese, authentic steamed & kurkure momos, flaky egg rolls, and wok chowmein at Commander Chowk, Vikas Nagar, Hastsal, New Delhi. Call +91 89202 37631.">
+    <meta name="keywords"
+        content="Drooling Station, Momos Vikas Nagar, Chinese food Hastsal, Delhi fast food, chowmein, kathi roll, commander chowk restaurant">
+    <meta name="author" content="Drooling Station">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0a0c10">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant.restaurant">
+    <meta property="og:url" content="https://droolingstation.in/">
+    <meta property="og:title" content="Drooling Station | Authentic Chinese & Momos in New Delhi">
+    <meta property="og:description"
+        content="Sizzling wok-tossed chowmein, authentic kurkure & steamed momos, crispy rolls and fast food in Vikas Nagar, New Delhi.">
+    <meta property="og:image" content="assets/images/momos-delhi.jpg">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Drooling Station | Chinese, Momos & Street Bites">
+    <meta property="twitter:description"
+        content="Pocket-friendly, fresh wok-tossed Chinese & momos at Commander Chowk, Vikas Nagar, Hastsal, New Delhi.">
+    <meta property="twitter:image" content="assets/images/momos-delhi.jpg">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+
+    <!-- Schema.org JSON-LD LocalBusiness / Restaurant -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Drooling Station",
+    "image": "assets/images/momos-delhi.jpg",
+    "telephone": "+91-89202-37631",
+    "priceRange": "₹200 - ₹500",
+    "servesCuisine": ["Chinese", "Momos", "Fast Food", "Rolls", "Street Food"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "M-26, Ranhola Road, Commander Chowk",
+      "addressLocality": "Vikas Nagar, Hastsal",
+      "addressRegion": "Delhi",
+      "postalCode": "110059",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 28.635398,
+      "longitude": 77.042898
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "12:00",
+        "closes": "22:30"
+      }
+    ],
+    "hasMenu": "https://droolingstation.in/#menu"
+  }
+  </script>
+</head>
+
+<body>
+
+    <!-- 1. Header & Navigation -->
+    <header class="site-header" role="banner">
+        <div class="container nav-wrapper">
+            <a href="#home" class="brand-logo" aria-label="Drooling Station Home">
+                <div class="brand-icon">🥢</div>
+                <span>DROOLING <span class="brand-text-accent">STATION</span></span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#signatures" class="nav-link">Signatures</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#location" class="nav-link">Location</a></li>
+                </ul>
+            </nav>
+
+            <!-- Nav CTAs -->
+            <div class="nav-actions">
+                <div class="status-pill open live-status-pill" title="Live status based on 12:00 PM – 10:30 PM IST">
+                    <span class="status-dot"></span> Open Now
+                </div>
+                <a href="tel:+918920237631" class="btn btn-primary nav-call-btn" aria-label="Call Drooling Station">
+                    <span>📞</span> Call Now
+                </a>
+                <button class="mobile-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu"
+                    aria-expanded="false">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" role="dialog" aria-modal="true"
+        aria-label="Mobile Navigation">
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-nav-link">Home</a></li>
+            <li><a href="#signatures" class="mobile-nav-link">Signatures</a></li>
+            <li><a href="#menu" class="mobile-nav-link">Menu</a></li>
+            <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+            <li><a href="#about" class="mobile-nav-link">About Restaurant</a></li>
+            <li><a href="#location" class="mobile-nav-link">Location & Map</a></li>
+        </ul>
+        <div style="margin-top: auto; display: flex; flex-direction: column; gap: 0.75rem;">
+            <a href="tel:+918920237631" class="btn btn-primary" style="width: 100%;">
+                📞 Call +91 89202 37631
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Drooling+Station+M-26+Ranhola+Road+Vikas+Nagar+Hastsal+New+Delhi+110059"
+                target="_blank" rel="noopener" class="btn btn-secondary" style="width: 100%;">
+                📍 Get Directions
+            </a>
+        </div>
+    </div>
+
+    <main>
+        <!-- 2. Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-text-col">
+                    <div class="hero-badge-row">
+                        <span class="hero-location-tag">
+                            📍 M-26, Ranhola Road, Vikas Nagar, New Delhi
+                        </span>
+                        <div class="status-pill open live-status-pill">
+                            <span class="status-dot"></span> Open Now
+                        </div>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Bold Delhi Flavours.<br>
+                        <span class="highlight">Sizzling Woks.</span><br>
+                        Crispy Momos.
+                    </h1>
+
+                    <p class="hero-description">
+                        Drooling Station brings you fast, piping-hot Chinese dishes, authentic Himalayan-style momos,
+                        crunchy kathi rolls, and street fast-food favorites crafted with fresh ingredients at Commander
+                        Chowk.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#menu" class="btn btn-primary" style="padding: 1rem 2rem; font-size: 1.05rem;">
+                            <span>🥢</span> Explore Complete Menu
+                        </a>
+                        <a href="tel:+918920237631" class="btn btn-secondary"
+                            style="padding: 1rem 1.75rem; font-size: 1.05rem;">
+                            <span>📞</span> Call +91 89202 37631
+                        </a>
+                    </div>
+
+                    <div class="hero-features">
+                        <div class="hero-feature-item">
+                            <h4>100% Fresh</h4>
+                            <p>Cooked fresh to order</p>
+                        </div>
+                        <div class="hero-feature-item">
+                            <h4>₹200 – ₹500</h4>
+                            <p>Average cost for two</p>
+                        </div>
+                        <div class="hero-feature-item">
+                            <h4>12 PM – 10:30 PM</h4>
+                            <p>Open daily for cravings</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-main-card">
+                        <img src="assets/images/momos-delhi.jpg"
+                            alt="Steamed and Fried Momos with Chutney at Drooling Station" width="540" height="600" />
+                        <div class="hero-floating-chip">
+                            ★ Signature Street Taste
+                        </div>
+                        <div class="hero-card-overlay">
+                            <h3 style="font-size: 1.35rem; margin-bottom: 0.25rem;">Himalayan Momos & Spicy Dip</h3>
+                            <p style="font-size: 0.9rem; color: #cbd5e1;">Freshly steamed & fried dumplings served hot.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Quick Info Strip -->
+        <section class="quick-info-section" aria-label="Restaurant Essentials">
+            <div class="container quick-info-grid">
+                <div class="info-box">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h3>Location</h3>
+                        <p>M-26, Ranhola Road, Commander Chowk, Vikas Nagar, Hastsal, Delhi 110059</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-icon">🕒</div>
+                    <div>
+                        <h3>Business Hours</h3>
+                        <p>12:00 PM – 10:30 PM<br><span style="color: var(--brand-accent); font-size: 0.78rem;">Open 7
+                                Days a Week</span></p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h3>Direct Phone</h3>
+                        <p><a href="tel:+918920237631" style="color: var(--text-main); font-weight: 600;">+91 89202
+                                37631</a><br><span style="color: var(--text-dim); font-size: 0.78rem;">Takeaway &
+                                Inquiries</span></p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div class="info-icon">💰</div>
+                    <div>
+                        <h3>Pocket Friendly</h3>
+                        <p>Avg ₹200 – ₹500 for two<br><span style="color: var(--text-dim); font-size: 0.78rem;">Delhi
+                                Street Pricing</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Signature Dishes -->
+        <section class="signature-section" id="signatures">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Chef's Highlights</span>
+                    <h2 class="section-title">Verified Customer Favorites</h2>
+                    <p class="section-subtitle">Real items selected from our verified menu, prepared fresh on order with
+                        authentic Indian-Chinese seasonings.</p>
+                </div>
+
+                <div class="signature-grid" id="signature-items-grid">
+                    <!-- Populated dynamically by menu.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Complete Menu Section -->
+        <section class="menu-section" id="menu">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Authentic Menu</span>
+                    <h2 class="section-title">Explore Our Full Menu</h2>
+                    <p class="section-subtitle">Browse all dishes with authentic verified pricing. Filter by category,
+                        vegetarian preference, or search by dish name.</p>
+                </div>
+
+                <div class="menu-controls">
+                    <!-- Search & Diet Filters -->
+                    <div class="menu-search-row">
+                        <div class="menu-search-box">
+                            <span class="menu-search-icon">🔍</span>
+                            <input type="text" id="menu-search-input" class="menu-search-input"
+                                placeholder="Search momos, noodles, rolls, fried rice..."
+                                aria-label="Search menu items" />
+                        </div>
+
+                        <div class="menu-diet-toggles" role="group" aria-label="Dietary filter">
+                            <button class="diet-toggle-btn active" data-diet="all">All Dishes</button>
+                            <button class="diet-toggle-btn" data-diet="veg">
+                                <span class="diet-badge veg" style="width: 14px; height: 14px;"></span> Veg Only
+                            </button>
+                            <button class="diet-toggle-btn" data-diet="non-veg">
+                                <span class="diet-badge non-veg" style="width: 14px; height: 14px;"></span> Non-Veg
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Category Pill Filter -->
+                    <div class="menu-category-pills" id="menu-category-pills" role="tablist"
+                        aria-label="Menu Categories">
+                        <!-- Populated dynamically by menu.js -->
+                    </div>
+
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-dim);">
+                        <span id="menu-item-count">Loading items...</span>
+                        <span>All prices listed in Indian Rupees (₹)</span>
+                    </div>
+                </div>
+
+                <!-- Dynamic Menu Grid -->
+                <div class="menu-items-grid" id="menu-items-grid">
+                    <!-- Populated dynamically by menu.js -->
+                </div>
+
+                <!-- Verified authenticity notice -->
+                <div class="menu-note-box">
+                    <span style="font-size: 1.4rem;">ℹ️</span>
+                    <div>
+                        <strong>Authentic Business Disclosure:</strong> All items and prices displayed above reflect
+                        Drooling Station's verified local listings (Vikas Nagar, Hastsal). Prices and availability are
+                        subject to daily kitchen freshness.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Food Gallery -->
+        <section class="gallery-section" id="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Visual Showcase</span>
+                    <h2 class="section-title">Fresh From Our Kitchen</h2>
+                    <p class="section-subtitle">Click on any photograph to view high-resolution food details and
+                        preparation highlights.</p>
+                </div>
+
+                <div class="gallery-grid" id="food-gallery-grid">
+                    <!-- Populated dynamically by gallery.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div class="lightbox-modal" id="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Image Lightbox">
+            <div class="lightbox-content">
+                <button class="lightbox-close-btn" id="lightbox-close" aria-label="Close image lightbox">✕</button>
+                <div class="lightbox-img-wrap">
+                    <img src="" id="lightbox-image" alt="Enlarged Food Presentation" />
+                </div>
+                <div class="lightbox-footer">
+                    <div>
+                        <h3 id="lightbox-title" style="font-size: 1.2rem; margin-bottom: 0.2rem;">Dish Title</h3>
+                        <p id="lightbox-caption" style="font-size: 0.88rem; color: var(--text-muted);">Dish caption
+                            details</p>
+                    </div>
+                    <span id="lightbox-category"
+                        style="padding: 0.3rem 0.8rem; background: var(--bg-card); border-radius: 9999px; font-size: 0.8rem; color: var(--brand-accent);">Category</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7. About Section -->
+        <section class="about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <span class="section-tag">Authentic Delhi Food</span>
+                    <h2>Drooling Station, Vikas Nagar</h2>
+                    <p class="about-lead">
+                        Located strategically at Commander Chowk on Ranhola Road, Drooling Station is a local culinary
+                        hotspot dedicated to quick, pocket-friendly, and mouth-watering street food.
+                    </p>
+                    <p>
+                        From thin-skinned Himalayan steamed momos with fiery garlic sauce to sizzling woks tossing spicy
+                        chowmein and crunchy kathi rolls, we prioritize robust Delhi flavors, hot counter service, and
+                        fresh daily preparation.
+                    </p>
+
+                    <div class="about-pill-list">
+                        <span class="about-pill">✓ Made to Order</span>
+                        <span class="about-pill">✓ High-Heat Wok Prep</span>
+                        <span class="about-pill">✓ Authentic Red Chilli Dips</span>
+                        <span class="about-pill">✓ Veg & Non-Veg Options</span>
+                    </div>
+
+                    <div class="about-feature-cards">
+                        <div class="about-feature-card">
+                            <h4>Fast Counter Service</h4>
+                            <p>Hot, fresh orders prepared quickly for dine-in snacks and takeaway.</p>
+                        </div>
+                        <div class="about-feature-card">
+                            <h4>Verified Local Spot</h4>
+                            <p>Serving the local communities across Vikas Nagar, Hastsal, and Nilothi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-visual">
+                    <div
+                        style="position: relative; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-subtle);">
+                        <img src="assets/images/hakka-noodles.jpg" alt="Wok stir fry noodles at Drooling Station"
+                            width="500" height="550" style="width: 100%; height: auto;" />
+                        <div
+                            style="position: absolute; bottom: 0; left: 0; right: 0; padding: 1.5rem; background: linear-gradient(to top, rgba(10, 12, 16, 0.95), transparent);">
+                            <h4 style="font-size: 1.15rem; color: #fff;">Wok Sizzle in Action</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-muted);">High flame stir-fries infused with
+                                aromatic Delhi spices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Location & Directions Section -->
+        <section class="location-section" id="location">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Find Drooling Station</span>
+                    <h2 class="section-title">Visit Us in Vikas Nagar</h2>
+                    <p class="section-subtitle">Easily accessible via Ranhola Road at Commander Chowk. Drop by for
+                        evening snacks or call for direct takeaway.</p>
+                </div>
+
+                <div class="location-grid">
+                    <div class="location-card">
+                        <div>
+                            <div class="location-header">
+                                <span
+                                    style="font-size: 0.85rem; color: var(--brand-accent); font-weight: 700; text-transform: uppercase;">Official
+                                    Address</span>
+                                <h3 style="font-size: 1.75rem; margin-top: 0.4rem;">Drooling Station</h3>
+                            </div>
+
+                            <div class="location-address-box">
+                                <h4>Address & Landmark</h4>
+                                <p>
+                                    M-26, Ranhola Road,<br>
+                                    Commander Chowk (Near Som Bazar),<br>
+                                    Vikas Nagar, Hastsal,<br>
+                                    New Delhi, Delhi 110059
+                                </p>
+                                <button class="copy-address-btn" id="copy-address-btn">
+                                    📋 Copy Address to Clipboard
+                                </button>
+                            </div>
+
+                            <div style="margin-bottom: 2rem;">
+                                <h4 style="font-size: 1rem; margin-bottom: 0.4rem;">Operating Hours</h4>
+                                <p style="color: var(--text-muted); font-size: 0.9rem;">
+                                    Daily: 12:00 PM – 10:30 PM<br>
+                                    <span style="color: var(--text-dim); font-size: 0.8rem;">(Evening peak: 5:00 PM –
+                                        10:00 PM)</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="location-actions">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Drooling+Station+M-26+Ranhola+Road+Vikas+Nagar+Hastsal+New+Delhi+110059"
+                                target="_blank" rel="noopener" class="btn btn-primary" style="flex-grow: 1;">
+                                📍 Open in Google Maps
+                            </a>
+                            <a href="tel:+918920237631" class="btn btn-secondary">
+                                📞 Call Ahead
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="map-wrapper">
+                        <iframe title="Google Maps Location of Drooling Station in Vikas Nagar, New Delhi"
+                            src="https://maps.google.com/maps?q=M-26,%20Ranhola%20Road,%20Vikas%20Nagar,%20Hastsal,%20New%20Delhi,%20Delhi%20110059&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            loading="lazy" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Contact & Enquiry -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-card">
+                    <span class="section-tag">Direct Inquiries</span>
+                    <h2>Craving Delhi Chinese & Momos?</h2>
+                    <p>
+                        Give us a call directly for quick takeout inquiries, dish availability, or custom spice
+                        requirements. We look forward to serving you!
+                    </p>
+
+                    <div class="contact-ctas">
+                        <a href="tel:+918920237631" class="btn btn-primary"
+                            style="padding: 1rem 2.25rem; font-size: 1.1rem;">
+                            📞 Call +91 89202 37631
+                        </a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Drooling+Station+M-26+Ranhola+Road+Vikas+Nagar+Hastsal+New+Delhi+110059"
+                            target="_blank" rel="noopener" class="btn btn-secondary"
+                            style="padding: 1rem 2rem; font-size: 1.1rem;">
+                            🗺️ Get Directions
+                        </a>
+                    </div>
+
+                    <p class="contact-notice">
+                        <strong>Authenticity Note:</strong> Drooling Station takes orders directly in-person and by
+                        phone. Online table reservations and automated WhatsApp chat facilities are not active until
+                        formally enabled by the owner.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 10. Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <div class="brand-icon">🥢</div>
+                        <span>DROOLING <span class="brand-text-accent">STATION</span></span>
+                    </div>
+                    <p>
+                        Your authentic destination for Delhi street Chinese, Himalayan steamed & kurkure momos, rolls
+                        and quick snacks at Commander Chowk.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#signatures">Signatures</a></li>
+                        <li><a href="#menu">Complete Menu</a></li>
+                        <li><a href="#gallery">Food Gallery</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#location">Location & Directions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Cuisines</h4>
+                    <ul class="footer-links">
+                        <li><a href="#menu">Steamed & Fried Momos</a></li>
+                        <li><a href="#menu">Wok Hakka Noodles</a></li>
+                        <li><a href="#menu">Delhi Egg & Chicken Rolls</a></li>
+                        <li><a href="#menu">Crispy Chilli Potatoes</a></li>
+                        <li><a href="#menu">Fried Rice & Gravies</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Restaurant Hours</h4>
+                    <div class="footer-hours-row">
+                        <span>Monday – Sunday:</span>
+                        <span>12:00 PM – 10:30 PM</span>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <div class="status-pill open live-status-pill">
+                            <span class="status-dot"></span> Open Now
+                        </div>
+                    </div>
+                    <div style="margin-top: 1.25rem;">
+                        <p style="font-size: 0.85rem; color: var(--text-dim);">Phone: <a href="tel:+918920237631"
+                                style="color: var(--text-main);">+91 89202 37631</a></p>
+                        <p style="font-size: 0.85rem; color: var(--text-dim); margin-top: 0.25rem;">M-26, Ranhola Road,
+                            Vikas Nagar, New Delhi</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>
+                    © 2026 Drooling Station. All rights reserved.
+                </div>
+                <div style="font-size: 0.8rem; color: var(--text-dim);">
+                    Authentic Restaurant Website · Handcrafted with Semantic HTML5, CSS & Vanilla JS
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 11. Sticky Mobile Bottom Action Bar -->
+    <div class="mobile-action-bar" role="navigation" aria-label="Quick Mobile Actions">
+        <div class="mobile-action-grid">
+            <a href="tel:+918920237631" class="mobile-bar-btn primary">
+                <span style="font-size: 1.1rem;">📞</span>
+                <span>Call Now</span>
+            </a>
+            <a href="#menu" class="mobile-bar-btn">
+                <span style="font-size: 1.1rem;">🥢</span>
+                <span>View Menu</span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Drooling+Station+M-26+Ranhola+Road+Vikas+Nagar+Hastsal+New+Delhi+110059"
+                target="_blank" rel="noopener" class="mobile-bar-btn">
+                <span style="font-size: 1.1rem;">📍</span>
+                <span>Directions</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- JavaScript Entry Point -->
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
